@@ -20,12 +20,27 @@ To create an effective, smart, and extensible tool in authoring travel products.
 ## App Design
 
 * Product Object
-
-** Activities Object
-
-*** Activity Object
-
-**** Itinerary
-
-
-
+  * Name Object
+  * Days Object
+  * Multiday Bool
+  * [Activities]
+    * Activity Object
+      * Itinerary Object
+      * [Team]
+        * Transportation
+          * [Crew]
+            * CrewMembers
+      * Accommodation Object
+      * Expenses Object
+        * [Shared]
+          * item
+        * [Individual]
+          * item
+  * Day
+  * Date
+  * Price - Group, fix/person, variable/person
+    * Adults
+    * kid02
+    * kid35
+    * kid611
+  
