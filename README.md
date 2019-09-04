@@ -36,11 +36,11 @@ To create an effective, smart, and extensible tool in authoring travel products.
           * item
         * [Individual]
           * item
-  * Day
-  * Date
-  * Price - Group, fix/person, variable/person
-    * Adults
-    * kid02
-    * kid35
-    * kid611
+      * Day
+      * Date
+      * Price - Group, fix/person, variable/person
+        * Adults
+        * kid02
+        * kid35
+        * kid611
   
