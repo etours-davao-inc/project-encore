@@ -23,32 +23,8 @@ An app used by travel agent to author a detailed travel product.
 ### Scenario 4: Booking agent confirms a booking
 
 ## App Design
-![](https://drive.google.com/open?id=15znl7Taa8pH5eerwq9fs-khVa0DYqJpR)
-* Product Object
-  * Name Object
-  * Days Object
-  * Multiday Bool
-  * [Activities]
-    * Activity Object
-      * Itinerary Object
-      * [Team]
-        * Transportation
-          * [Crew]
-            * CrewMembers
-      * Accommodation Object
-      * Expenses Object
-        * [Shared]
-          * item
-        * [Individual]
-          * item
-      * Day
-      * Date
-      * Price - Group, fix/person, variable/person
-        * Adults
-        * kid02
-        * kid35
-        * kid611
-        
+![Component Diagram](https://res.cloudinary.com/stmi/image/upload/v1567672208/personal/ProductDiagram_tuqwba.png)
+
 * Quotation
   * Product/Activities
   * Computation
