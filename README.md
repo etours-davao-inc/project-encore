@@ -16,9 +16,11 @@ An app used by travel agent to author a detailed travel product.
 * A feature to pre-assign a resource to a travel product
 
 ## Use Case
-1. Travel agent authors a travel product
-2. Travel agent creates a quotation
-3. Travel agent confirms a booking
+
+### Scenario 1: Travel agent creates a product
+### Scenario 2: Travel agent creates quotation from a product
+### Scenario 3: Travel agent creates a custom quotation
+### Scenario 4: Booking agent confirms a booking
 
 ## App Design
 
@@ -46,4 +48,19 @@ An app used by travel agent to author a detailed travel product.
         * kid02
         * kid35
         * kid611
+        
+* Quotation
+  * Product/Activities
+  * Computation
+  * Customer Details
   
+* Booking
+  * Payment
+  
+        
+  
+  ### Some notes
+  * An product may already have a pre-assigned team and date/s to run activity such that of public tours
+  * Booking Agent may not be able to change pre-configured fields through a fix flag
+
+
