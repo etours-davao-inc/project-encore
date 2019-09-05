@@ -23,7 +23,7 @@ An app used by travel agent to author a detailed travel product.
 ### Scenario 4: Booking agent confirms a booking
 
 ## App Design
-
+![](https://drive.google.com/open?id=15znl7Taa8pH5eerwq9fs-khVa0DYqJpR)
 * Product Object
   * Name Object
   * Days Object
