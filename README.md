@@ -2,7 +2,10 @@
 An app used by travel agent to author a detailed travel product.
 
 ## Project Motivation
-To create an effective, smart, and extensible tool in authoring travel products.
+1. To create an effective, smart, and extensible tool in authoring travel products
+2. Reduce to single source of truth for travel products from a multiple source
+3. Reduce interface and number of ways to author/modify products
+4. Reduce time to author products
 
 ## Main Actor: Travel Agent
 
