@@ -1,6 +1,10 @@
 # Travel Product Authoring
 An app used by travel agent to author a detailed travel product.
 
+## Epic
+
+1. As a travel agent I want to be able to author a product that I can market in different mediums
+
 ## Project Motivation
 1. To create an effective, smart, and extensible tool in authoring travel products
 2. Reduce to single source of truth for travel products from a multiple source
