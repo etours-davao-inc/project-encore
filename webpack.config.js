@@ -5,6 +5,9 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: __dirname + '/dist',
+    library: "create",
+    libraryTarget: 'umd',
+    libraryExport: 'default'
   },
   module: {
     rules: [
@@ -16,5 +19,9 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  devServer: {
+    contentBase: './'
+  },
+  watch: true
 };
