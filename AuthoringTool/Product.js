@@ -1,28 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
-import { Consumer } from './Context';
+import { Context } from './Context';
 
 export default () => {
+  const { data } = useContext(Context);
   return (
-    <Consumer>
-      {({data, actions}) => {
-        return (
-          <React.Fragment>
-          <h1>{data.productName}</h1>
-          <div style={style.inputGroup}>
-            <label for="productName" style={style.label}>Product Name</label>
-            <input 
-              id="productName" 
-              type="text" 
-              style={style.input} 
-              value={data.productName}
-              name="productName"
-              onChange={e => actions.onInputChange(e)} />
-          </div>
-          </React.Fragment>
-        )
-      }}
-    </Consumer>
+    <React.Fragment>
+      <h1>{data.productName}</h1>
+      <div style={style.inputGroup}>
+        <label for="productName" style={style.label}>Product Name</label>
+        <input 
+          id="productName" 
+          type="text" 
+          style={style.input} 
+          value={data.productName}
+          name="productName"
+          onChange={e => actions.onInputChange(e)} />
+      </div>
+    </React.Fragment>
   )
 };
 
