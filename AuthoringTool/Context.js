@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const Context = React.createContext();
+export const Context = React.createContext();
 
 export class Provider extends Component {
   constructor(props) {
@@ -28,4 +28,4 @@ export class Provider extends Component {
   }
 }
 
-export const Consumer = Context.Consumer;
+// export const Consumer = Context.Consumer;
